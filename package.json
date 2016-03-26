@@ -1,0 +1,15 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "my website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SNuesch/website.git"
+  },
+  "author": "sheryl nuesch",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  }
+}
