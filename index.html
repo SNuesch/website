@@ -1,16 +1,40 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html ng-app="mainApp"> <!--<![endif]-->
 <head>
-	<title>Sheryl's Website</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta name="author" content="Sheryl Nuesch">
+	<!-- //// FAVICON \\\\ -->
+    <link rel="SHORTCUT ICON" href="images/favicon.ico" />
+
+    <!-- //// FACEBOOK \\\\ -->
+    <meta property="og:title" content="Sheryl's Website" />
+    <meta property="og:description" content="Hello, this is my website." />
+    <meta property="og:image" content="images/meta-img.jpg" />
+
+    <!-- //// TITLE \\\\ -->
+    <title>Sheryl's Website</title>
+    
+    <!-- Bootstrap -->
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+
+    <!-- //// CSS \\\\ -->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+    <link href='css/styles.css' rel="stylesheet">
 
 </head>
 <body>
 	<h1>Sheryl's Site</h1>
+	<div ui-view></div>
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
